@@ -6,6 +6,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 const Discover = () => {
   const genreTitle = "Pop";
+  // eslint-disable-next-line no-unused-vars
   const dispatch = useDispatch();
   const { activeSong, isPlaying } = useSelector((state) => state.player);
   const { data, isFetching, error } = useGetTopChartsQuery();
