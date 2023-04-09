@@ -1,7 +1,10 @@
-import React from 'react';
-
+/* eslint-disable quotes */
 const Error = () => (
-  <div>Error</div>
+  <div className="w-full flex justify-center items-center flex-col">
+    <h1 className="font-bold text-2x1 text-white mt-2">
+      Something went wrong. Please try again.
+    </h1>
+  </div>
 );
 
 export default Error;
